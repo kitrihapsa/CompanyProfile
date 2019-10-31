@@ -1,0 +1,17 @@
+.box-img-news{
+  margin-top: 15px !important;
+  margin-left: 10px !important;
+  height: 15vw !important;
+  width: 35vw !important;
+}
+.margin-header { margin: 10px 15px 30px 15px }
+.margin-footer { margin: 40px 45px 40px 45p }
+.margin-row-footer {
+  margin-left: 3vw;
+  margin-right: 8vw;
+  margin-top: 3vw;
+  margin-bottom: 2vw;
+}
+.box-img-fot { width: 15vw;}
+.text-footer { font-size: 20px; color: #ffffff; font-family: 'NunitoSans-SemiBold'}
+.text-footer2 { font-size: 20px; color: #ffffff; font-family: 'NunitoSans-Regular'}

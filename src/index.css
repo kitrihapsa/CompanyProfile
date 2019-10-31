@@ -1,0 +1,64 @@
+body, html { height: 100%; margin: 0; padding: 0; background-color: #828282; }
+body { margin: 0; padding: 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; height:100%; }
+
+.mtop-20 { margin-top: 5.556vw !important; }
+.mauto { margin: auto; } 
+.width-90 { width: 90%; }
+.bg-header { background-color: #f6f9ff;}
+.width-logo-sai {width: 35%}
+.nonactive-scroll { overflow-y: hidden}
+
+/* HEADER */
+.header { min-height: 5vh; }
+.headerLogo { display: flex; align-items: center; justify-content: flex-start}
+.headerMenu { display: flex; align-items: center; justify-content: flex-end; color: #FFFFFF; }
+.box-logo {
+  /* overflow: hidden; */
+  /* width: 49.167vw;
+  height: 83.333vw; */
+  align-self: center;
+}
+.padding {padding: 30px 30px 30px 30px }
+.font { font-family: 'Nunito Sans ' !important;}
+/* FOOTER */
+.footer { min-height: 5vh; height: 50px; background-color: #FFFFFF; bottom: 0px; left: 0px; right: 0px; padding-bottom: 1.5vw; padding-top: 1vw; margin-bottom: 0px; justify-content: center; }
+.footerContent { display: flex; align-items: center; justify-content: center; color: #828282; }
+.siteContent { padding-top: 50px; } 
+
+/* MOBILE */
+@media screen and (max-width: 768px) { 
+  .header { min-height: 20px; }
+  .width-logo-sai {width: 50% !important}
+  .font-3 { font-size: 2vw; color:#222222}
+  .box-logo {
+    /* overflow: hidden; */
+    /* width: 49.167vw;
+    height: 83.333vw; */
+    align-self: center
+  }
+  .box-img {width: 100%}
+}
+
+/* DESKTOP AND LAPTOP */
+@media screen and (min-width : 768px) and (max-width : 1820px) { 
+  .width-logo-sai {width: 25%}
+  .font-3 { font-size: 1vw; color:#222222}
+  .box-img {width: 100%}
+}
+
+/* @font-face{
+  font-family: 'NunitoSans-Bold';
+  src:url(./NunitoSans-Bold.ttf);
+}
+@font-face{
+  font-family: 'NunitoSans-ExtraBold';
+  src:url(./NunitoSans-ExtraBold.ttf);
+}
+@font-face{
+  font-family: 'NunitoSans-Regular';
+  src:url(./NunitoSans-Regular.ttf);
+}
+@font-face{
+  font-family: 'NunitoSans-SemiBold';
+  src:url(./NunitoSans-SemiBold.ttf);
+} */

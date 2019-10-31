@@ -1,0 +1,72 @@
+.text-header { padding-top: 25px; margin-bottom: 35px; text-align: center; font-family: 'Arvo-Regular'; font-weight: 300 }
+.text-product { font-size: 20px; color: #292929; font-family: 'NunitoSans-SemiBold'} 
+.button-product { border-radius: 8px; padding: 5px; border-color: #cc2270; font-family: 'NunitoSans-Bold' }
+.text-home { word-spacing: 6px; padding-top: 15px; font-family:'NunitoSans-Reguler'  }
+.menu-box {
+  padding: 8px !important;
+  height: 15vw !important;
+  width: 15vw !important;
+  border-radius: 20px !important;
+  background-color: var(--secondary-color);
+  cursor: pointer;
+} 
+.menu-icon {
+  margin-top: 15px !important;
+  /* position: absolute !important; */
+  margin-left: 10px !important;
+  height: 15vw !important;
+  width: 15vw !important;
+}
+.box-product {
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: absolute;
+  background-color: #ffffff;
+  margin-left: 11px;
+  width: 214px;
+  margin-top: -30px;
+  cursor: pointer;
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 768px) { 
+  .box-product {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: absolute;
+    background-color: #ffffff;
+    margin-left: 11px;
+    width: 55px;
+    margin-top: -10px;
+    cursor: pointer;
+  }
+  .f12 {font-size: 6px}
+  .f25 { font-size: 14}
+  .f20 { font-size: 12}
+  .text-header { padding-top: 20px; margin-bottom: 10px; text-align: center; font-family: 'Arvo-Regular'; font-weight: 300 }
+  .text-product { font-size: 14px; color: #292929; font-family: 'NunitoSans-SemiBold'; text-align: center} 
+  .button-product { border-radius: 8px; padding: 5px; border-color: #cc2270; font-family: 'NunitoSans-Bold' }
+  .pbot-35 { padding-bottom: 35vw}
+}
+
+/* DESKTOP AND LAPTOP */
+@media screen and (min-width : 768px) and (max-width : 1366px) { 
+  .box-product {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    background-color: #ffffff;
+    margin-left: 11px;
+    width: 152px !important;
+    margin-top: -30px;
+    cursor: pointer;
+  }
+  .f12 {font-size: 12px}
+}

@@ -1,0 +1,51 @@
+/* Background Color */
+/*THEME AEROAJA */
+:root {
+  --main-color:#ffffff;
+  --secondary-color:#259eb9;
+  --third-color:#cc2270;
+  --white-color: #fff;
+  --bg-color: #f4f4f4;
+  --text-black-color:#292929;
+  --text-color: #222;
+  --text-color-secondary: #534e4c;
+}
+
+.bg-primary {background-color: var(--main-color) };
+.bg-secondary { background-color: var(--secondary-color) }
+.bg-third { background-color: var(--third-color) }
+.bg-white {  background-color: var(--white-color) }
+
+/* Color */
+.primary { color: #292929 }
+.black { color: #222222 }
+.white { color: #ffffff }
+.berry { color: #cc2270 }
+
+/* Font */
+.f25 { font-size: 25px }
+.f20 { font-size: 20px }
+.f16 { font-size: 16px }
+.f14 { font-size: 14px }
+
+.nav { display: block; }
+.justified-center { justify-content: center !important; }
+.pointer { cursor: pointer; }
+.row { display: flex; flex-direction: row; display: -webkit-flex; -webkit-flex-direction: row;}
+.menu-box-wrap { width: fit-content; }
+.mauto { margin: auto; }
+.center {text-align: center !important;}
+.w100 { width: 100% }
+.ptop15 { padding-top: 15px}
+.ptop20 { padding-top: 20px }
+.ptop25 { padding-top: 25px }
+.ptop6vw { padding-top: 6vw}
+.pbot-10vw { padding-bottom: 10vw }
+.mright-20 { margin-right: 25px }
+.mleft-25 { margin-left: 25px}
+.mtop-30 { margin-top: 30px}
+.mbot-15 { margin-bottom: 15px }
+.mbot-100 { margin-bottom:100px }
+.mbot-35 { margin-bottom: 35px}
+.space-6 { word-spacing: 6}
+.fNunitoR { font-family: 'NunitoSans-Regular'}
