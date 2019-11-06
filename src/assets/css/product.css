@@ -29,6 +29,17 @@
   margin-top: -30px;
   cursor: pointer;
 }
+.parallax {
+  background-image:  url("../png/banner-header.png");
+  min-height: 460px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover;  */
+  background-size: 100% 100%;
+  width: 100%;
+  position: sticky;
+}
 
 
 /* MOBILE */

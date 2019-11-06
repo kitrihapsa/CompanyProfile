@@ -14,8 +14,8 @@ body { margin: 0; padding: 0; -webkit-font-smoothing: antialiased; -moz-osx-font
 .headerMenu { display: flex; align-items: center; justify-content: flex-end; color: #FFFFFF; }
 .box-logo {
   /* overflow: hidden; */
-  /* width: 49.167vw;
-  height: 83.333vw; */
+  /* width: 100%;
+  height: 100%; */
   align-self: center;
 }
 .padding {padding: 30px 30px 30px 30px }
@@ -32,8 +32,8 @@ body { margin: 0; padding: 0; -webkit-font-smoothing: antialiased; -moz-osx-font
   .font-3 { font-size: 2vw; color:#222222}
   .box-logo {
     /* overflow: hidden; */
-    /* width: 49.167vw;
-    height: 83.333vw; */
+    /* width: 100%;
+    height: 100%; */
     align-self: center
   }
   .box-img {width: 100%}
@@ -45,20 +45,3 @@ body { margin: 0; padding: 0; -webkit-font-smoothing: antialiased; -moz-osx-font
   .font-3 { font-size: 1vw; color:#222222}
   .box-img {width: 100%}
 }
-
-/* @font-face{
-  font-family: 'NunitoSans-Bold';
-  src:url(./NunitoSans-Bold.ttf);
-}
-@font-face{
-  font-family: 'NunitoSans-ExtraBold';
-  src:url(./NunitoSans-ExtraBold.ttf);
-}
-@font-face{
-  font-family: 'NunitoSans-Regular';
-  src:url(./NunitoSans-Regular.ttf);
-}
-@font-face{
-  font-family: 'NunitoSans-SemiBold';
-  src:url(./NunitoSans-SemiBold.ttf);
-} */

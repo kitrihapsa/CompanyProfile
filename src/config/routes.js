@@ -19,7 +19,7 @@ class RootComponent extends React.PureComponent {
             <div className="containerHeader" fluid style={{ minHeight: "5vh",  backgroundColor: "#FFFFFF", paddingTop: 20,paddingBottom: 20, marginBottom: 0, paddingRight:'5vw', paddingLeft:'5vw' }}>
               <Header />
             </div>
-            <div fluid tyle={{ minHeight: "90vh",paddingRight:'5vw', paddingLeft:'5vw' }}>
+            <div fluid tyle={{ minHeight: "90vh",paddingRight:'5vw', paddingLeft:'5vw', overview: 'hiden' }}>
               <Home />
             </div>
             <div fluid style={{ minHeight: "1vh",marginBottom: 0, paddingTop: 0, paddingBottom: 0 }}>
